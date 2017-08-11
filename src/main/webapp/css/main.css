@@ -1,0 +1,104 @@
+.main-body-menu {
+    padding-top: 20px;
+    width: 200px;
+    height: 100%;
+    background-color: #b1b1b1;
+    position: fixed;
+}
+
+#main-page {
+    margin-left: 42%;
+    padding-top: 100px;
+
+}
+
+.nav {
+    margin-bottom: 20px;
+    margin-left: 0;
+    list-style: none;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: rgba(148, 151, 144, 0.65);
+}
+
+.nav-header {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #5a4a4a;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+}
+
+.li-color {
+    color: black;
+}
+
+#container {
+    width: 500px;
+    padding-top: 10%;
+    margin-left: 40%;
+}
+
+.label-create-department {
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.button-create-department {
+    margin-left: 88px;
+    margin-top: 10px;
+}
+
+.button-create-employee {
+    margin-left: 88px;
+    margin-top: 10px;
+}
+
+.input-create-employee {
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: red;
+}
+
+#show-all-departments {
+    margin-left: 245px;
+    padding-top: 30px;
+}
+
+#show-all-employees {
+    margin-left: 245px;
+    padding-top: 30px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.table thead th {
+    vertical-align: bottom;
+}
+
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+    background-color: #f5f5f5;
+}
